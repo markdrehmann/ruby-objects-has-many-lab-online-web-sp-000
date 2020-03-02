@@ -11,7 +11,7 @@ class Song
 
   def artist=(artist)
     @artist = artist
-    song.artist.songs << self
+    artist.songs << self
   end
 
   def self.all
